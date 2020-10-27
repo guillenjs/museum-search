@@ -1,0 +1,36 @@
+body {
+    color: blueviolet;
+}
+
+header{
+    height: 300px;
+}
+
+
+
+.searchform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar{
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    border: solid 1px rgb(187, 187, 187);
+}
+
+button{
+    width: 10%;
+    border: solid 1px rgb(175, 173, 173);
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(75, 74, 74);
+}
+
